@@ -12,12 +12,12 @@ module.exports = defineConfig({
   //       additionalData: `
   //       @import "./assets/styles/styles.scss";
   //     `
-        
+
   //     },
   //   }
   // },
+  publicPath: `/vd/`,
+  transpileDependencies: true
 
-    transpileDependencies: true
-    
-    
-  })
+
+})
