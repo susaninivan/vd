@@ -120,27 +120,49 @@
                 <li class="my-work-list">
                   <h6 class="text-uppercase">Schubert-Serenade (F.Liszt)</h6>
                   <!-- <midi-player sound-font  src="https://susaninivan.github.io/midi/01RECSNG-Serenada-Shu-List.mid"></midi-player> -->
-                <!-- <midi-player sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" src="https://susaninivan.github.io/midi/01RECSNG-Serenada-Shu-List.mid"></midi-player> -->
-                <midi-player sound-font src="https://susaninivan.github.io/midi/1.mid"></midi-player>
-
+                  <!-- <midi-player sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" src="https://susaninivan.github.io/midi/01RECSNG-Serenada-Shu-List.mid"></midi-player> -->
+                  <midi-player
+                    sound-font
+                    src="https://susaninivan.github.io/midi/1.mid"
+                  ></midi-player>
                 </li>
                 <li class="my-work-list">
                   <h6 class="text-uppercase">E.Grieg Nocturne</h6>
                   <!-- <midi-player sound-font  src="https://susaninivan.github.io/midi/01RECSNG-Serenada-Shu-List.mid"></midi-player> -->
-                <!-- <midi-player sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" src="https://susaninivan.github.io/midi/02RECSNG-Nokturn-Grieg.mid"></midi-player> -->
-                <midi-player sound-font src="https://susaninivan.github.io/midi/2.mid"></midi-player>
-
+                  <!-- <midi-player sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" src="https://susaninivan.github.io/midi/02RECSNG-Nokturn-Grieg.mid"></midi-player> -->
+                  <midi-player
+                    sound-font
+                    src="https://susaninivan.github.io/midi/2.mid"
+                  ></midi-player>
                 </li>
                 <li class="my-work-list">
                   <h6 class="text-uppercase">E.Grieg Solveig's Song</h6>
                   <!-- <midi-player sound-font  src="https://susaninivan.github.io/midi/01RECSNG-Serenada-Shu-List.mid"></midi-player> -->
-                <!-- <midi-player sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" src="https://susaninivan.github.io/midi/02RECSNG-Nokturn-Grieg.mid"></midi-player> -->
-                <midi-player sound-font src="https://susaninivan.github.io/midi/3.mid"></midi-player>
-
+                  <!-- <midi-player sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" src="https://susaninivan.github.io/midi/02RECSNG-Nokturn-Grieg.mid"></midi-player> -->
+                  <midi-player
+                    sound-font
+                    src="https://susaninivan.github.io/midi/3.mid"
+                  ></midi-player>
                 </li>
 
-                
-              
+                <li class="my-work-list">
+                  <h6 class="text-uppercase">Beethoven Sonata No.8</h6>
+                  <!-- <midi-player sound-font  src="https://susaninivan.github.io/midi/01RECSNG-Serenada-Shu-List.mid"></midi-player> -->
+                  <!-- <midi-player sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" src="https://susaninivan.github.io/midi/02RECSNG-Nokturn-Grieg.mid"></midi-player> -->
+                  <midi-player
+                    sound-font
+                    src="https://susaninivan.github.io/midi/6.mid"
+                  ></midi-player>
+                </li>
+                <li class="my-work-list">
+                  <h6 class="text-uppercase">Beethoven Sonata No.14</h6>
+                  <!-- <midi-player sound-font  src="https://susaninivan.github.io/midi/01RECSNG-Serenada-Shu-List.mid"></midi-player> -->
+                  <!-- <midi-player sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" src="https://susaninivan.github.io/midi/02RECSNG-Nokturn-Grieg.mid"></midi-player> -->
+                  <midi-player
+                    sound-font
+                    src="https://susaninivan.github.io/midi/8.mid"
+                  ></midi-player>
+                </li>
               </ul>
             </div>
 
