@@ -163,6 +163,15 @@
                     src="https://susaninivan.github.io/midi/8.mid"
                   ></midi-player>
                 </li>
+                <li class="my-work-list">
+                  <h6 class="text-uppercase">F.Liszt Consolation No.3</h6>
+                  <!-- <midi-player sound-font  src="https://susaninivan.github.io/midi/01RECSNG-Serenada-Shu-List.mid"></midi-player> -->
+                  <!-- <midi-player sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" src="https://susaninivan.github.io/midi/02RECSNG-Nokturn-Grieg.mid"></midi-player> -->
+                  <midi-player
+                    sound-font
+                    src="https://susaninivan.github.io/midi/9.mid"
+                  ></midi-player>
+                </li>
               </ul>
             </div>
 
