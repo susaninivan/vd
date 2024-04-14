@@ -116,63 +116,138 @@
                 піаніно.
               </h6>
               <p class="my-work">Вересень 2023</p>
-              <ul class="company-list">
-                <li class="my-work-list">
-                  <h6 class="text-uppercase">Schubert-Serenade (F.Liszt)</h6>
-                  <!-- <midi-player sound-font  src="https://susaninivan.github.io/midi/01RECSNG-Serenada-Shu-List.mid"></midi-player> -->
-                  <!-- <midi-player sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" src="https://susaninivan.github.io/midi/01RECSNG-Serenada-Shu-List.mid"></midi-player> -->
-                  <midi-player
-                    sound-font
-                    src="https://susaninivan.github.io/midi/1.mid"
-                  ></midi-player>
-                </li>
-                <li class="my-work-list">
-                  <h6 class="text-uppercase">E.Grieg Nocturne</h6>
-                  <!-- <midi-player sound-font  src="https://susaninivan.github.io/midi/01RECSNG-Serenada-Shu-List.mid"></midi-player> -->
-                  <!-- <midi-player sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" src="https://susaninivan.github.io/midi/02RECSNG-Nokturn-Grieg.mid"></midi-player> -->
-                  <midi-player
-                    sound-font
-                    src="https://susaninivan.github.io/midi/2.mid"
-                  ></midi-player>
-                </li>
-                <li class="my-work-list">
-                  <h6 class="text-uppercase">E.Grieg Solveig's Song</h6>
-                  <!-- <midi-player sound-font  src="https://susaninivan.github.io/midi/01RECSNG-Serenada-Shu-List.mid"></midi-player> -->
-                  <!-- <midi-player sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" src="https://susaninivan.github.io/midi/02RECSNG-Nokturn-Grieg.mid"></midi-player> -->
-                  <midi-player
-                    sound-font
-                    src="https://susaninivan.github.io/midi/3.mid"
-                  ></midi-player>
-                </li>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="company-list">
+                    <li class="my-work-list">
+                      <h6 class="text-uppercase">
+                        Schubert-Serenade (F.Liszt)
+                      </h6>
+                      <!-- <midi-player sound-font  src="https://susaninivan.github.io/midi/01RECSNG-Serenada-Shu-List.mid"></midi-player> -->
+                      <!-- <midi-player sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" src="https://susaninivan.github.io/midi/01RECSNG-Serenada-Shu-List.mid"></midi-player> -->
+                      <audio controls>
+                        <source src="../assets/mp3/1.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </li>
+                    <li class="my-work-list">
+                      <h6 class="text-uppercase">E.Grieg Nocturne</h6>
+                      <audio controls>
+                        <source src="../assets/mp3/2.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </li>
+                    <li class="my-work-list">
+                      <h6 class="text-uppercase">E.Grieg Solveig's Song</h6>
+                      <audio controls>
+                        <source src="../assets/mp3/3.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </li>
 
-                <li class="my-work-list">
-                  <h6 class="text-uppercase">Beethoven Sonata No.8</h6>
-                  <!-- <midi-player sound-font  src="https://susaninivan.github.io/midi/01RECSNG-Serenada-Shu-List.mid"></midi-player> -->
-                  <!-- <midi-player sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" src="https://susaninivan.github.io/midi/02RECSNG-Nokturn-Grieg.mid"></midi-player> -->
-                  <midi-player
-                    sound-font
-                    src="https://susaninivan.github.io/midi/6.mid"
-                  ></midi-player>
-                </li>
-                <li class="my-work-list">
-                  <h6 class="text-uppercase">Beethoven Sonata No.14</h6>
-                  <!-- <midi-player sound-font  src="https://susaninivan.github.io/midi/01RECSNG-Serenada-Shu-List.mid"></midi-player> -->
-                  <!-- <midi-player sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" src="https://susaninivan.github.io/midi/02RECSNG-Nokturn-Grieg.mid"></midi-player> -->
-                  <midi-player
-                    sound-font
-                    src="https://susaninivan.github.io/midi/8.mid"
-                  ></midi-player>
-                </li>
-                <li class="my-work-list">
-                  <h6 class="text-uppercase">F.Liszt Consolation No.3</h6>
-                  <!-- <midi-player sound-font  src="https://susaninivan.github.io/midi/01RECSNG-Serenada-Shu-List.mid"></midi-player> -->
-                  <!-- <midi-player sound-font="https://storage.googleapis.com/magentadata/js/soundfonts/sgm_plus" src="https://susaninivan.github.io/midi/02RECSNG-Nokturn-Grieg.mid"></midi-player> -->
-                  <midi-player
-                    sound-font
-                    src="https://susaninivan.github.io/midi/9.mid"
-                  ></midi-player>
-                </li>
-              </ul>
+                    <li class="my-work-list">
+                      <h6 class="text-uppercase">Beethoven Sonata No.8</h6>
+                      <audio controls>
+                        <source src="../assets/mp3/6.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </li>
+                    <li class="my-work-list">
+                      <h6 class="text-uppercase">Beethoven Sonata No.14</h6>
+                      <audio controls>
+                        <source src="../assets/mp3/8.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </li>
+                    <li class="my-work-list">
+                      <h6 class="text-uppercase">F.Liszt Consolation No.3</h6>
+                      <audio controls>
+                        <source src="../assets/mp3/9.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </li>
+                    <li class="my-work-list">
+                      <h6 class="text-uppercase">F.Chopin Étude No.13</h6>
+                      <audio controls>
+                        <source src="../assets/mp3/10.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-6 d-none">
+                  <ul>
+                    <li class="my-work-list">
+                      <h6 class="text-uppercase">F.Chopin Valse No.7</h6>
+                      <audio controls>
+                        <source src="../assets/mp3/11.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </li>
+                    <li class="my-work-list">
+                      <h6 class="text-uppercase">
+                        P.I. Tchaikovsky Autumn Song
+                      </h6>
+                      <audio controls>
+                        <source src="../assets/mp3/12.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </li>
+                    <li class="my-work-list">
+                      <h6 class="text-uppercase">
+                        P.I. Tchaikovsky April (Autumn Song)
+                      </h6>
+                      <audio controls>
+                        <source src="../assets/mp3/13.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </li>
+                    <li class="my-work-list">
+                      <h6 class="text-uppercase">
+                        P.I. Tchaikovsky November (Autumn Song)
+                      </h6>
+                      <audio controls>
+                        <source src="../assets/mp3/14.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </li>
+                    <li class="my-work-list">
+                      <h6 class="text-uppercase">
+                        E.Grieg Solveig's Song (Doo)
+                      </h6>
+                      <audio controls>
+                        <source src="../assets/mp3/17.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </li>
+                    <li class="my-work-list">
+                      <h6 class="text-uppercase">
+                        P.I. Tchaikovsky Oktober / piano (Autumn Song)
+                      </h6>
+                      <audio controls>
+                        <source src="../assets/mp3/19.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </li>
+                    <li class="my-work-list">
+                      <h6 class="text-uppercase">
+                        S.Rachmaninoff Prelude Op.3, No.2
+                      </h6>
+                      <audio controls>
+                        <source src="../assets/mp3/20.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </li>
+                    <li class="my-work-list">
+                      <h6 class="text-uppercase">F.Chopin Prelude No.3</h6>
+                      <audio controls>
+                        <source src="../assets/mp3/21.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
 
             <!-- Company #2-->
@@ -223,7 +298,12 @@ export default {
     return {};
   },
 
-  methods: {},
+  computed: {
+    // setTimeout: function () {
+    //   document.getElementById("hideBlock").style.display = "block";
+    //   3000;
+    // },
+  },
 };
 </script>
 
